@@ -30,7 +30,9 @@
 ###### Esta página o usuario ira poder realizar um filtro para pesquisar/publicar uma moradia.
 ###### A filtragem se baseia em seleção de estado e municipio, checkbox de condições que o imovel deve ter.
 
+###### Comprar:
 ![3](https://user-images.githubusercontent.com/109003291/194760574-4549efe0-1ff7-4281-ad6c-5d84ca5760f6.png)
+###### Vender:
 ![3 3](https://user-images.githubusercontent.com/109003291/194760571-c359e0f6-6ea1-425b-91c9-cb6fbe53ddd4.png)
 
 ##### Quarta página:
@@ -43,6 +45,7 @@
 ###### Esta página serve para mostrar os anuncios publicados dos usuarios na plataforma.
 ###### Para realizar a publicação de um anuncio basta seguir a trilha de vender na primeira página.
 
+![meusanuncios](https://user-images.githubusercontent.com/109003291/194760828-c68bb426-4ba7-4f0f-a9a5-689eab48edc8.png)
 
 ##### Sexta página (Chat):
 ###### Caso o usuario não encontre um anuncio de seu interesse, ele posso realizar em forma de pergunta em um forum dentro da página.
