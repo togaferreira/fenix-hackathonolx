@@ -1,0 +1,336 @@
+.fundo {
+  background: fixed
+    linear-gradient(rgba(110, 10, 214, 255) 60%, rgb(124, 129, 198) 100%);
+  width: 100vw;
+  margin: auto;
+}
+
+.fundo2 {
+  background: fixed
+    linear-gradient(rgba(110, 10, 214, 255) 30%, rgba(110, 10, 245, 255) 100%);
+  width: 100vw;
+  margin: auto;
+}
+.fundo3 {
+  background: fixed rgba(110, 10, 214, 255);
+  text-align: center;
+  width: 100vw;
+  margin: auto;
+}
+.bottominicio {
+  text-decoration: none;
+  color: white;
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+/* COMPRAR E VENDER pag1 */
+.pergunta {
+  text-align: center;
+  margin-top: 130px;
+  color: white;
+  font-size: 50px;
+  padding: 20px 50px;
+  font-family: "Nunito Sans", "Helvetica Neue", Arial, sans-serif;
+  border-radius: 40px;
+}
+.comprar {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+.comprar2 {
+  text-decoration: none;
+  color: white;
+  padding: 30px 50px;
+  background: rgba(247, 131, 35, 255);
+  margin: 50px;
+  border-radius: 50px;
+  font-size: 30px;
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.comprar2 {
+  transition: transform 0.3s;
+}
+.comprar2:hover {
+  transform: scale(1.1);
+}
+.comprar3 {
+  text-decoration: none;
+  color: white;
+  padding: 30px 120px;
+  background: rgba(247, 131, 35, 255);
+  margin: 50px;
+  border-radius: 50px;
+  font-size: 30px;
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.comprar3 {
+  transition: transform 0.3s;
+}
+.comprar3:hover {
+  transform: scale(1.1);
+}
+/* COMPRAR E VENDER pag1 */
+
+/* CABEÇALHO */
+header {
+  background-color: white;
+  max-width: 100vw;
+  height: 150px;
+}
+.rodape {
+  display: flex;
+  align-items: center;
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.imglogo {
+  text-align: center;
+  margin-left: 200px;
+}
+img {
+  width: 100px;
+}
+.itens1 {
+  margin-left: 500px;
+  text-decoration: none;
+  color: rgba(81, 81, 81, 255);
+}
+.itens2 {
+  margin-left: 50px;
+  text-decoration: none;
+  color: rgba(81, 81, 81, 255);
+}
+.itens3 {
+  margin-left: 50px;
+  text-decoration: none;
+  color: rgba(81, 81, 81, 255);
+}
+.itens4 {
+  margin-left: 50px;
+  background: white;
+  color: rgba(81, 81, 81, 255);
+  text-decoration: none;
+  padding: 10px 60px;
+  border-radius: 15px;
+  border: 1px solid rgba(81, 81, 81, 255);
+}
+.itens5 {
+  margin-left: 50px;
+  background: rgba(247, 131, 35, 255);
+  color: white;
+  text-decoration: none;
+  padding: 10px 40px;
+  border-radius: 15px;
+}
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+}
+/* CABEÇALHO */
+
+/* CORPO DA PAGINA pag2 */
+.main {
+  max-width: 100vw;
+  margin: auto;
+  text-align: center;
+}
+
+.icons {
+  background-color: white;
+  padding: 20px;
+  border-radius: 25px;
+  margin: 50px;
+  margin-top: 120px;
+  border: solid 1px grey;
+}
+
+.texticon {
+  margin-top: 130px;
+  max-width: 150vw;
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 50px;
+  padding: 20px 50px;
+  justify-content: center;
+}
+.divtexticon {
+  display: flex;
+  justify-content: center;
+}
+
+main div a img {
+  transition: transform 0.3s;
+}
+
+main div a img:hover {
+  transform: scale(1.1);
+}
+/* CORPO DA PAGINA pag2 */
+
+/* CORPO DA PAGINA pag3 */
+.informe {
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.radiocenter {
+  text-align: center;
+  margin-top: 50px;
+}
+main div input {
+  width: 200px;
+  height: 50px;
+}
+main div input::after {
+  width: 200px;
+  height: 50px;
+  border: 2px solid rgba(247, 131, 35, 255);
+  box-sizing: border-box;
+  background-color: rgba(247, 131, 35, 255);
+  content: attr(value);
+  display: block;
+  border-radius: 15px;
+  line-height: 45px;
+  color: white;
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 25px;
+}
+main div input:checked:after {
+  background-color: rgb(247, 183, 7);
+}
+
+.text {
+  text-align: center;
+}
+.estado {
+  color: white;
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 5px;
+  font-size: 30px;
+}
+.flexEstado {
+  display: flex;
+  justify-content: center;
+}
+.flexEstado1 {
+  padding: 10px 20px;
+}
+.flexEstado2 {
+  padding: 10px 20px;
+}
+.optionsestado {
+}
+section {
+  display: flex;
+  justify-content: center;
+}
+.sectioncheck {
+  margin-top: 10px;
+  border-radius: 25px;
+}
+.ulfont {
+  color: white;
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+section div h2 {
+  color: white;
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+footer {
+  text-align: center;
+  margin: 60px;
+}
+.procurar {
+  color: white;
+  text-decoration: none;
+  background: rgba(247, 131, 35, 255);
+  padding: 15px 60px;
+  border-radius: 10px;
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+footer div {
+  transition: transform 0.3s;
+}
+footer div:hover {
+  transform: scale(1.1);
+}
+.docsend {
+  background: rgba(247, 131, 35, 255);
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* CORPO DA PAGINA pag3 */
+
+/* CORPO DA PAGINA pag anuncios */
+.anuncios2 {
+  color: white;
+  margin-top: 45px;
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+.anuncios {
+  color: white;
+  margin-top: 45px;
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-left: 185px;
+}
+.mainanuncios {
+  text-align: center;
+}
+.imganuncio {
+  border-radius: 25px;
+  margin: auto;
+  height: 670px;
+  margin-top: 40px;
+  width: 1200px;
+}
+.imganuncio2 {
+  border-radius: 25px;
+  margin: auto;
+  margin-top: 40px;
+  width: 1000px;
+}
+.flexanuncio {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.adicionar {
+  text-decoration: none;
+  color: white;
+  margin-top: auto;
+  background: rgba(247, 131, 35, 255);
+  border-radius: 25px;
+  padding: 1px 50px;
+  font-size: 11px;
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-right: 185px;
+}
+/* CORPO DA PAGINA pag anuncios */
+
+/* CORPO DA PAGINA pag pesquisar */
+.imgpesquisar {
+  width: 1200px;
+  margin-top: 50px;
+}
+/* CORPO DA PAGINA pag pesquisar */
